@@ -24,3 +24,5 @@ jobs:
       run: |
           ./Chapter08/gradlew.bat build
           dir ./Chapter08/build.gradle
+          ./Chapter08/gradlew.bat run
+          dir ./Chapter08/

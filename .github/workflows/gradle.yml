@@ -25,4 +25,4 @@ jobs:
           ./Chapter06/gradlew.bat build
           dir ./Chapter06
           ./Chapter08/gradlew.bat build
-          dir ./Chapter08
+          dir ./Chapter08/gradle

@@ -23,4 +23,4 @@ jobs:
     - name: Build with Gradle
       run: |
           ./Chapter08/gradlew.bat build
-          dir ./Chapter08
+          dir ./Chapter08/build.gradle

@@ -22,7 +22,7 @@ jobs:
         java-version: 1.8
     - name: Build with Gradle
       run: |
+          ./Chapter06/gradlew.bat build
+          dir ./Chapter06
           ./Chapter08/gradlew.bat build
-          dir ./Chapter08/build.gradle
-          ./Chapter08/gradlew.bat run
-          dir ./Chapter08/
+          dir ./Chapter08

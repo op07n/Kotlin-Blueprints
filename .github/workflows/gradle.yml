@@ -21,6 +21,4 @@ jobs:
       with:
         java-version: 1.8
     - name: Build with Gradle
-      run: |
-          cd Chapter08
-          gradlew build
+      run: ./Chapter08/gradlew.bat build
